@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.tixus.eopac.server.HtmlProtocolTest" failures="1" tests="1" time="2.748" errors="0">
+  <properties/>
+  <testcase name="testStaticHtmlSearch" time="2.716" classname="de.tixus.eopac.server.HtmlProtocolTest">
+    <failure type="java.lang.NullPointerException">
+      <![CDATA[java.lang.NullPointerException
+	at de.tixus.eopac.server.zones.LibraryLookupZonesImpl.parseHtml(LibraryLookupZonesImpl.java:157)
+	at de.tixus.eopac.server.zones.LibraryLookupZonesImpl.findByIsbn(LibraryLookupZonesImpl.java:61)
+	at de.tixus.eopac.server.HtmlProtocolTest.testStaticHtmlSearch(HtmlProtocolTest.java:25)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>
